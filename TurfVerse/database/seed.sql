@@ -1,0 +1,7 @@
+-- TurfVerse seed guidance for the Auth-linked profiles schema.
+--
+-- public.profiles.id must equal auth.users.id. Create test users through
+-- Supabase Auth first. The app creates each missing profile after sign-in.
+--
+-- Create turfs, slots, matches, and other related sample rows only after the
+-- required owner/player profiles exist, using their public.profiles.id values.
